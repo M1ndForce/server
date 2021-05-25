@@ -8,7 +8,7 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "M1ndForce",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
