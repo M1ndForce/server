@@ -23,6 +23,10 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.get("/", (req,res)=>{
+    res.send('Hello World')
+})
+
 app.use("/categories", categoryRouts);
 app.use("/purchases", purchaseRouts);
 app.use("/", reportRouts);
