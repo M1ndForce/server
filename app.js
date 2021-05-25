@@ -27,6 +27,6 @@ app.use("/categories", categoryRouts);
 app.use("/purchases", purchaseRouts);
 app.use("/", reportRouts);
 
-app.listen( process.env.PORT, () => {
+app.listen( process.env.PORT || 5000, () => {
   console.log(`${text.LISTEN_URL}${config.PORT}`);
 });
